@@ -1,0 +1,7 @@
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\bin\Debug\DinamikusVerem.exe.config
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\bin\Debug\DinamikusVerem.exe
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\bin\Debug\DinamikusVerem.pdb
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\obj\Debug\DinamikusVerem.csprojAssemblyReference.cache
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\obj\Debug\DinamikusVerem.csproj.CoreCompileInputs.cache
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\obj\Debug\DinamikusVerem.exe
+C:\Users\acsro\source\repos\DinamikusVerem\DinamikusVerem\obj\Debug\DinamikusVerem.pdb
