@@ -106,8 +106,25 @@ namespace DinamikusVerem
             }
             public void Megfordit()
             {
+                Object[] seged2 = new Object[vermem.Length];
                 if (Meret == 0) throw kiakad;
-                vermem.Reverse();
+                //vermem.Reverse();
+
+                Object[] temp = vermem;
+                //Console.WriteLine("temp[] elemei fordítva: ");
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    //Console.Write(temp[vermem.Length - (i + 1)] + " ");
+                    Object segedem = temp[vermem.Length - (i + 1)];
+                    seged2[i] = segedem;
+                    //vermem[i] = 
+                }
+                //Console.WriteLine();
+                for (int i = 0; i < seged2.Length; i++)
+                {
+                    vermem[i] = seged2[i];
+                }
+
                 //Megfordit: a verem tartalmának teljes megfordítását kezdeményező metódus. 
                 //Ekkor a veremben az elemek megfordulnak.
             }
@@ -132,8 +149,9 @@ namespace DinamikusVerem
             vermem.Rarak(11);
             vermem.Rarak(12);
             vermem.Rarak(13);
-            vermem.Levesz();
-            vermem.Levesz();
+
+
+            vermem.Megfordit();
             Console.WriteLine("Utolso elem: " + vermem.Kiolvas());
             Console.WriteLine(vermem.ToString());
             Console.ReadKey();
